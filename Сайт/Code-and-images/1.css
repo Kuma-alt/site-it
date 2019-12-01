@@ -1,0 +1,28 @@
+table {
+	  border-color: red;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-top-color: red;
+	  border-right-color:green;
+	  border-left-color:yellow;
+	  border-bottom-color:blue;
+	  border-collapse:solid;	     
+}
+
+td {
+    border: 1px red solid;
+}
+
+table:first-child {
+	border-collapse: collapse; 
+}
+td:last-child {
+    background-color: silver; 
+}
+
+/*
+tr:nth-child(2) {
+*/
+tr:nth-child(4n-2) {
+	   background-color:yellow; 
+}
